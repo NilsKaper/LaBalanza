@@ -1,3 +1,5 @@
+
+
 .small-letters {
     text-transform: none !important;
 }
@@ -8,4 +10,46 @@
 
 .text-primary {
     color: #f05f40;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    min-height: 100px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+
+}
+
+.navbar-brand{
+    color: rgb(170, 170, 170)!important;
+    margin-left: 10%;
+}
+
+@media (max-width: 768px){
+    .navbar-brand{
+        margin-left: 10px;
+        font-size: 14pt!important;
+    }
+}
+
+.navbar ul{
+    margin-right: 15%!important;
+    
+}
+
+.nav-pills li a{
+    color: rgb(170, 170, 170)!important;
+}
+
+.nav-pills li .active{
+    color: white!important;
+}
+
+.darken{
+    background-color: black;
+}
+.opacity{
+    opacity: .5;
 }
